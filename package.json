@@ -1,0 +1,25 @@
+{
+  "author": "buzzdecafe <m_hur@yahoo.com> (http://buzzdecafe.com)",
+  "name": "monoid",
+  "description": "Javascript monoid",
+  "version": "0.0.1",
+  "homepage": "https://www.github.com/buzzdecafe/monoid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buzzdecafe/monoid.git"
+  },
+  "main": "lib/monoid.js",
+  "scripts": {
+    "test": "jasmine-node --verbose spec"
+  },
+  "contributors": [
+    "buzzdecafe"
+  ],
+  "dependencies": {
+      "eweda": "https://github.com/CrossEye/eweda/tarball/master",
+      "requirejs": "2.0.x",
+      "grunt": "~0.4.1",
+      "grunt-contrib-jshint": "~0.1.1"
+  },
+}
